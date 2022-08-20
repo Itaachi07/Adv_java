@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>Product List page for </h1>
-	<table style="background-color: lightgrey; margin: auto">
+	<table style="background-color: lightgreen; margin: auto">
 		<tr>
 			<th>****</th>
 			<th>****</th>

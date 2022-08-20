@@ -12,7 +12,7 @@
 	<h1>Add Product Page</h1>
 	<form:form method="post" modelAttribute="product">
 
-		<table style="background-color: lightgrey; margin: auto">
+		<table style="background-color: lightgreen; margin: auto">
 			<tr>
 				<td>Enter name</td>
 				<td><form:input type="text" path="p_name" /></td>

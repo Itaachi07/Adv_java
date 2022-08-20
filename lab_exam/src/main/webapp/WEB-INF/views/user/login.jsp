@@ -12,7 +12,7 @@
 <h1>Login Page</h1>
 	<form method="post">
 		<h5 style="color: red;">${requestScope.mesg}</h5>
-		<table style="background-color: lightgrey; margin: auto">
+		<table style="background-color: lightgreen; margin: auto">
 			<tr>
 				<td>Enter User Email</td>
 				<td><input type="text" name="userName" /></td>
