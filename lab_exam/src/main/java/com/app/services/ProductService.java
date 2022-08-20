@@ -12,10 +12,19 @@ import com.app.entities.Product;
 
 @Service
 @Transactional
-public class ProductService {
+public class ProductService implements IProductService{
 	@Autowired
 	IProductRepository productRepo;
 public List<Product> getAllProducts(){
 	return productRepo.findAll();
+}
+@Override
+public Product addProduct(Product product) {
+
+	return productRepo.save(product);
+
+}
+public void deleteProduct(Long id) {
+productRepo.deleteById(id);	
 }
 }

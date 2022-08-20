@@ -14,9 +14,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class BaseEntity {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long Id;
-	
+	private Long id;
 }

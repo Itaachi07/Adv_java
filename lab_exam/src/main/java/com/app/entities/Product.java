@@ -14,13 +14,12 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Product extends BaseEntity {
-	private String p_name;
-	private String p_desc;
-	private int p_Qnty;
-	private int p_price;
-	@ManyToOne
-	@JoinColumn(nullable = false)
-	private User user;
-
+public class Product extends BaseEntity{
+private String p_name;
+private String p_desc;
+private int p_Qnty;
+private int p_price;
+@ManyToOne
+@JoinColumn(nullable = false)
+private User user;
 }

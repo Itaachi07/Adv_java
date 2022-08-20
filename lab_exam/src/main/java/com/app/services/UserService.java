@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import com.app.dao.IUserRepository;
 import com.app.entities.User;
-
 @Service
 @Transactional
 public class UserService implements IUserService{
