@@ -9,9 +9,9 @@
 <!--  lookup parent from repository  -->
 </parent>
 <groupId>com.example</groupId>
-<artifactId>day20_lab</artifactId>
+<artifactId>lab_exam</artifactId>
 <version>0.0.1</version>
-<name>day20_lab</name>
+<name>lab_exam</name>
 <description>Spring Boot App for MVC Web App for Lab Exam Practice</description>
 <properties>
 <java.version>11</java.version>
