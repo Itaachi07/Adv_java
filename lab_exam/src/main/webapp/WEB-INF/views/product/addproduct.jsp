@@ -8,5 +8,33 @@
 </head>
 <body>
 <h1>Add Product Page</h1>
+<form :form method = "post" modelAttribute="product">
+<table  style "bacground-color :lightgrey; margin:auto" = > 
+
+<tr>
+ <td> Enter Name</td>
+ <td> <form:input type="text" path="p_name" /></td>
+
+ </tr>
+ <tr>
+				<td>Enter Desc</td>
+				<td><form:input type="text" path="p_desc" /></td>
+			</tr>
+			<tr>
+				<td>Enter Qty</td>
+				<td><form:input type="text" path="p_Qnty" /></td>
+			</tr>
+			<tr>
+				<td>Enter Price</td>
+				<td><form:input type="text" path="p_price" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add" /></td>
+			</tr>
+</table>
+
+	
+
+</form>
 </body>
 </html>
